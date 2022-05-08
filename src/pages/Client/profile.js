@@ -1,9 +1,11 @@
 import React from "react";
+import ProfileCard from "../../components/clientComponents/ProfileCard";
+import "../../scss/index.scss";
 
 export default function Profile(){
   return (
-    <div>
-      <h2>Profile page</h2>
+    <div className="container">
+      <ProfileCard></ProfileCard>
     </div>
   )
 }

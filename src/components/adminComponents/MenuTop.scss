@@ -24,6 +24,11 @@
 
   &_right {
     position: absolute;
+    margin-right: 20px;
     right: 0;
+
+    h3 {
+      color: white;
+    }
   }
 }

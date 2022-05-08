@@ -7,9 +7,9 @@ export default function MenuTop(){
   return (
    <div className="menu-top">
       <div className="menu-top_left">
-        <img className="menu-top_left-log" alt="Logo" src={Logo}></img>
+        <img className="menu-top_left-log" alt="Logo" src={Logo} width='55px' height='55px'></img>
       </div>
-      <div className="menutop_right">
+      <div className="menu-top_right">
         <h3>Logout</h3>
       </div>
    </div>
