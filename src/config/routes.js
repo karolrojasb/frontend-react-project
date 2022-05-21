@@ -2,15 +2,13 @@ import LayoutAdmin from "../layouts/LayoutAdmin";
 import LayoutBasic from "../layouts/LayoutBasic"
 
 import AdminHome from "../pages/Admin";
-import AdminSignIn from "../pages/Admin/signIn"
+import AdminSignIn from "../pages/Admin/SignIn/SignIn"
 
 import Home from "../pages/home";
 import Contact from "../pages/contact";
 import Profile from "../pages/Client/profile"
 
 import NotFound from "../pages/not_found";
-
-
 
 const routesAdmin = [
   {

@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from "../../assets/img/png/logo.png"
+import Logo from "../../../assets/img/png/logo.png"
 
 import "./MenuTop.scss"
 

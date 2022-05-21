@@ -1,5 +1,4 @@
-@import '../scss/index.scss';
-
+@import "../scss/index.scss";
 .layout-admin {
   transition: margin-left 0.2s;
 
@@ -11,6 +10,7 @@
     display: flex;
     padding: 0;
     height: 65px;
+    background-color: aliceblue;
   }
 
   &_content {
@@ -19,6 +19,11 @@
   }
 
   &_footer {
-    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: aliceblue;
   }
 }
