@@ -46,6 +46,7 @@ export default function Register() {
       setFormValid({ ...formValid, [name]: e.target.checked })
     }
   }
+
   const register = async (e) => {
     e.preventDefault()
     console.log("Estoy en register")
@@ -61,7 +62,7 @@ export default function Register() {
     } else {
       const result = await signUpApi(inputs)
       console.log(result)
-      if (!result.user) {
+      if (!result.user_creado) {
         notification["error"]({
           message: result.message
         })
